@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTask", "MVCTask\MVCTask.csproj", "{6CC7D434-817A-4791-99B7-9887E6D94E0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVCTask\MVC.csproj", "{6CC7D434-817A-4791-99B7-9887E6D94E0D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{4D9FBFAA-83BA-4861-8C46-66C4EF3E7A31}"
 EndProject
