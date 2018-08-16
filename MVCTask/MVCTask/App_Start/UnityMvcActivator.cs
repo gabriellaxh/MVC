@@ -3,10 +3,10 @@ using System.Web.Mvc;
 
 using Unity.AspNet.Mvc;
 
-[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(MVCTask.UnityMvcActivator), nameof(MVCTask.UnityMvcActivator.Start))]
-[assembly: WebActivatorEx.ApplicationShutdownMethod(typeof(MVCTask.UnityMvcActivator), nameof(MVCTask.UnityMvcActivator.Shutdown))]
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(MVC.UnityMvcActivator), nameof(MVC.UnityMvcActivator.Start))]
+[assembly: WebActivatorEx.ApplicationShutdownMethod(typeof(MVC.UnityMvcActivator), nameof(MVC.UnityMvcActivator.Shutdown))]
 
-namespace MVCTask
+namespace MVC
 {
     /// <summary>
     /// Provides the bootstrapping for integrating Unity with ASP.NET MVC.

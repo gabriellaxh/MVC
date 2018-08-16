@@ -1,37 +1,37 @@
 ﻿using DataAccess;
-using MVCTask.Models;
+using MVC.Models;
 using Repository.Contracts;
 using System.Collections.Generic;
 using System.Web.Mvc;
 
-namespace MVCTask.Controllers
+namespace MVC.Controllers
 {
     public class CustomersController : Controller
     {
         private readonly ICustomersRepository _service;
 
         // GET: Customer
-        static List<CustomerModel> customers = new List<CustomerModel>
-        {
-            new CustomerModel
-            {
-                Id = 2,
-                Firstname = "Ivan",
-                Lastname = "Petrov",
-                PhoneNumber = "0891234865",
-                SecondPhoneNumber = "0286345",
-                Address = "ul. Momina salza 15"
-            },
-            new CustomerModel
-            {
-                Id= 4,
-                Firstname = "Simona",
-                Lastname = "Dimitrova",
-                PhoneNumber = "0886345912",
-                SecondPhoneNumber = "0234568",
-                Address = "ul. Shipchenska"
-            }
-        };
+        //static List<CustomerModel> customers = new List<CustomerModel>
+        //{
+        //    new CustomerModel
+        //    {
+        //        Id = 2,
+        //        Firstname = "Ivan",
+        //        Lastname = "Petrov",
+        //        PhoneNumber = "0891234865",
+        //        SecondPhoneNumber = "0286345",
+        //        Address = "ul. Momina salza 15"
+        //    },
+        //    new CustomerModel
+        //    {
+        //        Id= 4,
+        //        Firstname = "Simona",
+        //        Lastname = "Dimitrova",
+        //        PhoneNumber = "0886345912",
+        //        SecondPhoneNumber = "0234568",
+        //        Address = "ul. Shipchenska"
+        //    }
+        //};
 
         public CustomersController(ICustomersRepository repository)
         {

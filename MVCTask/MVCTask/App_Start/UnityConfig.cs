@@ -4,7 +4,7 @@ using System;
 
 using Unity;
 
-namespace MVCTask
+namespace MVC
 {
     /// <summary>
     /// Specifies the Unity configuration for the main container.

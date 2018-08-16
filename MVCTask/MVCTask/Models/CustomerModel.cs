@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace MVCTask.Models
+namespace MVC.Models
 {
     public class CustomerModel
     {
