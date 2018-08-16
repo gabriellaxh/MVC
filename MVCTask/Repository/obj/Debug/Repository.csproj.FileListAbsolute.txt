@@ -1,0 +1,30 @@
+C:\Users\gshirkova\Desktop\MVCTask\MVCTask\Repository\bin\Debug\Repository.exe.config
+C:\Users\gshirkova\Desktop\MVCTask\MVCTask\Repository\bin\Debug\Repository.exe
+C:\Users\gshirkova\Desktop\MVCTask\MVCTask\Repository\bin\Debug\Repository.pdb
+C:\Users\gshirkova\Desktop\MVCTask\MVCTask\Repository\bin\Debug\DataAccess.exe
+C:\Users\gshirkova\Desktop\MVCTask\MVCTask\Repository\bin\Debug\EntityFramework.dll
+C:\Users\gshirkova\Desktop\MVCTask\MVCTask\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gshirkova\Desktop\MVCTask\MVCTask\Repository\bin\Debug\DataAccess.pdb
+C:\Users\gshirkova\Desktop\MVCTask\MVCTask\Repository\bin\Debug\DataAccess.exe.config
+C:\Users\gshirkova\Desktop\MVCTask\MVCTask\Repository\bin\Debug\EntityFramework.xml
+C:\Users\gshirkova\Desktop\MVCTask\MVCTask\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gshirkova\Desktop\MVCTask\MVCTask\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+C:\Users\gshirkova\Desktop\MVCTask\MVCTask\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\gshirkova\Desktop\MVCTask\MVCTask\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\gshirkova\Desktop\MVCTask\MVCTask\Repository\obj\Debug\Repository.exe
+C:\Users\gshirkova\Desktop\MVCTask\MVCTask\Repository\obj\Debug\Repository.pdb
+C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\Repository\bin\Debug\Repository.exe.config
+C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\Repository\bin\Debug\Repository.exe
+C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\Repository\bin\Debug\Repository.pdb
+C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\Repository\bin\Debug\DataAccess.exe
+C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\Repository\bin\Debug\EntityFramework.dll
+C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\Repository\bin\Debug\DataAccess.pdb
+C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\Repository\bin\Debug\DataAccess.exe.config
+C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\Repository\bin\Debug\EntityFramework.xml
+C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\Repository\obj\Debug\Repository.exe
+C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\Repository\obj\Debug\Repository.pdb
