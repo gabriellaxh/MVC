@@ -133,18 +133,24 @@ namespace MVCTask.Controllers
 
         public ActionResult Details(int id)
         {
-            var customerWanted = customers.Find(x => x.Id == id);
-            return View(customerWanted);
+            var customerWanted = _service.GetCustomerById(id);
+
+            var mappedCustomer = new CustomerModel
+            {
+                Id = customerWanted.Id,
+                Firstname = customerWanted.Firstname,
+                Lastname = customerWanted.Lastname,
+                PhoneNumber = customerWanted.PhoneNumber,
+                SecondPhoneNumber = customerWanted.SecondPhoneNumber,
+                Address = customerWanted.Address
+            };
+
+            return View(mappedCustomer);
         }
 
         public ActionResult Delete(int id)
         {
-            var customerToDel = customers.Find(x => x.Id == id);
-
-            if (customerToDel != null)
-            {
-                customers.Remove(customerToDel);
-            }
+            _service.DeleteCustomer(id);
 
             return RedirectToAction(nameof(Index));
         }

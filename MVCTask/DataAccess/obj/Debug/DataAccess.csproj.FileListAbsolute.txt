@@ -22,3 +22,15 @@ C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\DataAccess\obj\Debug\DataA
 C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
 C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\DataAccess\obj\Debug\DataAccess.exe
 C:\Users\gshirkova\Desktop\New folder\MVCTask\MVCTask\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Gabriela\Desktop\New folder\MVC\MVCTask\DataAccess\bin\Debug\DataAccess.exe.config
+C:\Users\Gabriela\Desktop\New folder\MVC\MVCTask\DataAccess\bin\Debug\DataAccess.exe
+C:\Users\Gabriela\Desktop\New folder\MVC\MVCTask\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Gabriela\Desktop\New folder\MVC\MVCTask\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Gabriela\Desktop\New folder\MVC\MVCTask\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gabriela\Desktop\New folder\MVC\MVCTask\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Gabriela\Desktop\New folder\MVC\MVCTask\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gabriela\Desktop\New folder\MVC\MVCTask\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\Gabriela\Desktop\New folder\MVC\MVCTask\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\New folder\MVC\MVCTask\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\Gabriela\Desktop\New folder\MVC\MVCTask\DataAccess\obj\Debug\DataAccess.exe
+C:\Users\Gabriela\Desktop\New folder\MVC\MVCTask\DataAccess\obj\Debug\DataAccess.pdb

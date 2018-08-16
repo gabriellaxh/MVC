@@ -12,5 +12,7 @@ namespace Repository.Contracts
         void AddCustomer(Customer customerToAdd);
 
         void EditCustomer(int id,Customer customer);
+
+        void DeleteCustomer(int id);
     }
 }

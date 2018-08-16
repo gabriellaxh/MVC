@@ -9,7 +9,7 @@ namespace Repository.Services
     {
         public List<Customer> GetAllCustomers()
         {
-            using(var context = new OnlineShopEntities())
+            using (var context = new OnlineShopEntities())
             {
                 var allCustomers = context.Customers.ToList();
 
@@ -19,13 +19,14 @@ namespace Repository.Services
 
         public Customer GetCustomerById(int id)
         {
-            using(var context = new OnlineShopEntities())
+            using (var context = new OnlineShopEntities())
             {
                 var customerById = context.Customers.First(x => x.Id == id);
 
                 return customerById;
             }
         }
+
         public void AddCustomer(Customer customerToAdd)
         {
             using (var context = new OnlineShopEntities())
@@ -45,7 +46,7 @@ namespace Repository.Services
             }
         }
 
-        public void EditCustomer(int id,Customer customerToEdit)
+        public void EditCustomer(int id, Customer customerToEdit)
         {
             using (var context = new OnlineShopEntities())
             {
@@ -58,6 +59,35 @@ namespace Repository.Services
                     customer.PhoneNumber = customerToEdit.PhoneNumber;
                     customer.SecondPhoneNumber = customerToEdit.SecondPhoneNumber;
                     customer.Address = customerToEdit.Address;
+                }
+
+                context.SaveChanges();
+            }
+        }
+
+        public void DeleteCustomer(int id)
+        {
+            using (var context = new OnlineShopEntities())
+            {
+                var customerToDel = context.Customers.First(x => x.Id == id);
+
+                if (customerToDel != null)
+                {
+
+                    var ordersToDelete = context.Orders.Where(o => o.CustomerId == customerToDel.Id);
+
+                    foreach (var order in ordersToDelete)
+                    {
+                        var orderItemsToDelete = context.OrderItems.Where(oi => oi.OrderId == order.Id);
+
+                        foreach (var orderItem in orderItemsToDelete)
+                        {
+                            context.OrderItems.Remove(orderItem);
+                        }
+
+                        context.Orders.Remove(order);
+                    }
+                    context.Customers.Remove(customerToDel);
                 }
 
                 context.SaveChanges();
